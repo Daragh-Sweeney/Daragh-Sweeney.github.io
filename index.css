@@ -1,0 +1,27 @@
+
+html, body {
+  margin:0px;
+  height:100%;
+  color: white;
+}
+
+.profile {
+  background:grey;
+  height:100%;
+  color: white;
+}
+
+.stack {
+  background:white;
+  height:100%;
+}
+
+.projects {
+  background:grey;
+  color: white;
+}
+
+.extra {
+  background:white;
+  height:100%;
+}
