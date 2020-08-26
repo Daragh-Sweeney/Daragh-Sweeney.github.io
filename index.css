@@ -2,26 +2,80 @@
 html, body {
   margin:0px;
   height:100%;
+  width:100%;
   color: white;
+  scroll-behavior: smooth;
 }
 
 .profile {
-  background:grey;
+  background:#353f69;
   height:100%;
+  width:100%;
   color: white;
+  padding-top: 6%;
 }
 
 .stack {
-  background:white;
-  height:100%;
+  background:#e4e5ed;
+   color: black;
+  
+  padding-top: 6%;
 }
 
 .projects {
-  background:grey;
+  background:#353f69;
   color: white;
+  height:100%;
+  padding-top: 5.5%;
 }
 
 .extra {
-  background:white;
+  background:#e4e5ed;
   height:100%;
+  padding-top: 6%;
+}
+
+.halfscreen {
+  height:50%;
+  color:white;
+}
+
+
+/* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+/* Style the icon bar links */
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+/* Style the social media icons with color */
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.GitHub {
+  background: black;
+  color: white;
+}
+
+.linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.resume {
+  background: #bb0000;
+  color: white;
 }

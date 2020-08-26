@@ -5,17 +5,24 @@
     <link rel="stylesheet" href="index.css"> 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <script src="https://kit.fontawesome.com/8948e7f2ff.js" crossorigin="anonymous"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
     <metaname="description" content="Web site created using create-react-app"/>
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
     <title>Daragh Sweeney - website</title>
   </head>
   
 
-  <body>
+  <body data-spy="scroll" data-target=".navbar" data-offset="50">
 
+    <!--Sticky Social Bar -->
+    <div class="icon-bar">
+      <a href="http://www.github.com/Daragh-Sweeney" class="GitHub"><i class="fa fa-github"></i></a>
+      <a href="http://www.linkedin.com/in/daragh-sweeney" class="linkedin"><i class="fa fa-linkedin"></i></a>
+      <a href="DaraghCV.pdf" class="resume">CV</i></a>
+    </div>
+
+    <!--Nav Bar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
       <div class="container" >
         <a class="nav-link js-scroll-trigger" href="#profile" style="text-decoration: none;color:white">
@@ -23,7 +30,6 @@
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#profile"><h2>Profile</h2></a></li>
@@ -32,43 +38,49 @@
             <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#extra"><h2>Outside Work</h2></a></li>
           </ul>
         </div>
-
       </div>
     </nav>
 
- 
-
-
-    <section id="profile" class = "profile">
+     <!--Profile Section -->
+    <section id="profile" class ="profile">
     <div class="container">
       <div class="row">
         
         <div class="col-lg-3 mx-auto text-center">
-          <br><br><br><br><br>
-          <img class="rounded-circle" height="220" width="220" src="Daragh.jpg" data-holder-rendered="true">
-          <br><br>
+          
+          <img class="rounded-circle" style = "width:80%;" src="Daragh.jpg" data-holder-rendered="true">
+          
         </div>
 
         <div class="col-lg-9 mx-auto">
-          <br><br><br><br><br><br>
+         
           <h1>Daragh Sweeney</h1><br>
-          <h3>Hello there, I created this website to give you a little information about me and some of the exciting projects I have had the plesure of working on. I am a driven hardworking individual with a high aptitude for problem solving and critical thinking. Self-motivated and assertive. Check out my Linkin or Github repo below if youd like.
+          <h3>Hello there, I created this website to give you a little information about me and some of the exciting projects I have had the plesure of working on. I am a young software developer with a love for anything tech and a desire to be the best in my field.
+            <br>Check out my Linkin, Github or download a copy of my CV on the left hand side of the page.
           </h3>
 
-          <h3><br><span class="glyphicon glyphicon-user"></span> <a href="http://www.linkedin.com/in/daragh-sweeney" style="text-decoration: none;color:white">Linkedin</a>
-          <span class="glyphicon glyphicon-tasks"></span> <a href="http://www.github.com/Daragh-Sweeney" style="text-decoration: none;color:white">GitHub</a>
+          <h3><br>
           <span class="glyphicon glyphicon-envelope"></span> daraghsweeney95@gmail.com
-          <span class="glyphicon glyphicon-phone"></span> 07898014295</h3><br><br><br><br>
+          <span class="glyphicon glyphicon-phone"></span> 07898014295</h3><br><br>
         </div>
 
-         <div class="col-lg-2 text-center"><h1>2012</h1><img width="70%" src="148705-essential-collection\png\345-more.png" data-holder-rendered="true"><h3>Created my First Hello world Programme</h3></div>
-         <div class="col-lg-2 text-center"><h1>2016</h1><img width="70%" src="148705-essential-collection\png\278-list.png" data-holder-rendered="true"><h3>Developed an automated testing framework on Placement</h3></div>
-         <div class="col-lg-2 text-center"><h1>2018</h1><img width="70%" src="148705-essential-collection\png\261-diploma.png" data-holder-rendered="true"><h3>Graduated with a 1.1 in Computer Science and IT from NUI Galway</h3></div>
-         <div class="col-lg-2 text-center"><h1>2018</h1><img width="70%" src="148705-essential-collection\png\272-blueprint.png" data-holder-rendered="true"><h3>Developed a CI/CD pipeline in a company</h3></div>
-         <div class="col-lg-2 text-center"><h1>2019</h1><img width="70%" src="148705-essential-collection\png\214-worldwide.png" data-holder-rendered="true"><h3>Spent a year and a half traveling around the world </h3></div>
-         <div class="col-lg-2 text-center"><h1>2020</h1><img width="70%" src="148705-essential-collection\png\357-home.png" data-holder-rendered="true"><h3>Moved to London and in search of the next big challenge</h3></div><br><br>
-        
+          <div class="row">
+          <div class="col-lg-3 text-center"><h1><i class="fab fa-java"></i> Java</h1>
+            <h3><br>Have an extensive knowledge of Java gained through education and from industry. I have had several modules that incorporated Java and have used it in industry. I was also a tutor for Java and have knowledge of java 8 and its features</h3></div>
+
+          <div class="col-lg-3 text-center"><h1>M.E.A.N. Stack</h1>
+            <h3><br>MongoDB Express Angular Node. Gained experience using this stack in University and fell in love with it. Its easy to use scalable and can produce beautiful looking websites very quickly</h3>
+          </div>
+
+          <div class="col-lg-3 text-center"> <h1><i class="fab fa-html5"></i> HTML, <i class="fab fa-css3-alt"></i> CSS, <br><i class="fab fa-js-square"></i> Javascript</h1>
+            <h3>The first time I wrote code it was a Hello World webpage when I was 16, since then I have used these languages to develop and create hundreds of projects</h3>
+          </div>
+       
+          <div class="col-lg-3 text-center"><h1><i class="fab fa-python"></i> Pyton</h1>
+            <h3><br>Have an extensive knowledge of Java gained through education and from industry</h3>
+          </div>
         </div>
+         
       </div>
     </div>
   </section>
@@ -79,27 +91,76 @@
         <div class="col-lg-12 mx-auto">
           <p class="lead"></p>
 
-        <div class="row" style="height:50%">
-          <div class="col-lg-2 text-center"><img width="100%" src="java.png" data-holder-rendered="true"></div>
-          <div class="col-lg-2 text-center"><h3>Java</h3><h5><br>Have an extensive knowledge of Java gained through education and from industry</h5></div>
+          <div class="row">
+            <div class="col-lg-2 text-center">
+              <img class="rounded-circle" style = "width:90%;" src="supervalu.jpg" data-holder-rendered="true">
+            </div>
+            <div class="col-lg-9">
+              <h1>2012</h1>
+              <h2>Worked in Supervalu, a supermarket in Ireland for over 5 years, here I gained skills that I believe helped me in all aspects of my life. I learned to communicate with customers and team members, I learned how to think independently and solve problems and I learned how to manage a number of tasks.</h2>
+            </div>
+          </div>
 
-          <div class="col-lg-2 text-center"><img  width="100%" src="meanstack.png" data-holder-rendered="true"></div>
-          <div class="col-lg-2 text-center"><h3>M.E.A.N.</h3><h5><br>MongoDB Express Angular Node. Gained experience using this stack in University and fell in love with it. Its easy to use scalable and can produce beautiful looking websites very quickly</h5></div>
+          <div class="row" style="padding-top: 3%;">
+            <div class="col-lg-1 text-center"></div>
+            <div class="col-lg-2 text-center">
+              <img class="rounded-circle" style = "width:90%;" src="openjaw.jfif" data-holder-rendered="true">
+            </div>
+            
+            <div class="col-lg-9">
+              <h1>2016</h1>
+              <h2>Spent 8 months in a Company on a placement year. Here I gained skills that I would not have been able to learn in college. I worked in an agile environment with clients from around the world. I developed an automated testing framework using Selenium, and I wrote tecnical documents.</h2>
+            </div>
+          </div>
 
-          <div class="col-lg-2 text-center"><img width="100%" src="html.png" data-holder-rendered="true"></div>
-          <div class="col-lg-2 text-center"> <h3>HTML,CSS,Javascript</h3><h5><br>The first time I wrote code it was a Hello World webpage when I was 16, since then I have used these languages to develop and create hundreds of projects</h5></div>
-        </div>
 
-        <div class="row" style="height:50%">
-          <div class="col-lg-2 text-center"><img width="100%" src="pyton.png" data-holder-rendered="true"></div>
-          <div class="col-lg-2 text-center"><h3>Pyton</h3><h5><br>Have an extensive knowledge of Java gained through education and from industry</h5></div>
+          <div class="row" style="padding-top: 3%;">
+            <div class="col-lg-2 text-center">
+              <img class="rounded-circle" style = "width:90%;" src="supervalu.jpg" data-holder-rendered="true">
+            </div>
+           
+            <div class="col-lg-10">
+              <h1>2018</h1>
+              <h2>I graduated with a first class honors in Computer Science and IT from NUI Galway. </h2>
+            </div>
+          </div>
 
-          <div class="col-lg-2 text-center"><img width="100%" src="sql.png" data-holder-rendered="true"></div>
-          <div class="col-lg-2 text-center"><h3>SQL</h3><h5><br>Have an extensive knowledge of Java gained through education and from industry</h5></div>
+          <div class="row" style="padding-top: 3%;">
+            <div class="col-lg-1 text-center"></div>
+            <div class="col-lg-2 text-center">
+              <img class="rounded-circle" style = "width:90%;" src="aspect.jpg" data-holder-rendered="true">
+            </div>
+            <div class="col-lg-9">
+              <h1>2018</h1>
+              <h2>Worked for 6 months in a company in Galway</h2>
+            </div>
+          </div>
 
-          <div class="col-lg-2 text-center"><img width="100%" src="maven.png" data-holder-rendered="true"></div>
-          <div class="col-lg-2 text-center"><h3>Maven</h3><h5><br>Have an extensive knowledge of Java gained through education and from industry</h5></div>
-        </div>
+          <div class="row" style="padding-top: 3%;">
+            <div class="col-lg-2 text-center">
+              <img class="rounded-circle" style = "width:90%;" src="travels.jpg" data-holder-rendered="true">
+            </div>
+           
+            <div class="col-lg-10">
+              <h1>2019</h1>
+              <h2>Spent a year and a half traveling around the world</h2>
+            </div>
+          </div>
+
+          <div class="row" style="padding-top: 3%;padding-bottom: 3%;">
+            <div class="col-lg-1 text-center"></div>
+            <div class="col-lg-2 text-center">
+              <img class="rounded-circle" style = "width:90%;" src="aspect.jpg" data-holder-rendered="true">
+            </div>
+            <div class="col-lg-9">
+              <h1>2020</h1>
+              <h2>Moved to London and in search of the next big challenge</h2>
+            </div>
+          </div>
+
+
+          </div>
+
 
         </div>
       </div>
@@ -109,88 +170,83 @@
   <section id="projects" class = "projects">
     <div class="container">
       <div class="row">
-        <div class="col-lg-12 mx-auto">
-          <h2><br>Projects</h2>
-          <p class="lead"></p>
 
-          <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img class="d-block w-100" src="foolme1.png" alt="First slide">
-              </div>
-              <div class="carousel-item">
-                <img class="d-block w-100" src="foolme1.png" alt="Second slide">
-              </div>
-              <div class="carousel-item">
-                <img class="d-block w-100" src="foolme1.png" alt="Third slide">
-              </div>
+          <div class="halfscreen">
+            <div class="col-lg-3 text-center">
+              <h1>Automatic Testing Framework</h1>
+              <img width="50%" src="selenium.png" data-holder-rendered="true">
+              <h3>During my placement year in industry I had the opertunity to make an automated testing framework </h3>
             </div>
-            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-            </a>
-          </div>
 
-         <!-- <div class="row">
-            <div class="col-lg-4" style = "padding-bottom: 5%;">
-              <h3>Fool me once</h3>
-              <h5>As part of final year project had the opportunity to co-publish a paper exploring the connection between motion dynamics and cognitive dynamics with regards to deception. As part of this I created a game that would record user input as they moved a mouse, this information was then processed using machine learning algorithms to see if we could detect if the person was lying or telling the truth.<br><a href="https://github.com/Daragh-Sweeney/Final-Year-Project">https://github.com/Daragh-Sweeney/Final-Year-Project</a><br><a href="http://www.psychicsoftware.com/Lie2Me-IEEE-GEM-2018.pdf">http://www.psychicsoftware.com/Lie2Me-IEEE-GEM-2018.pdf</a> </h5>
+            <div class="col-lg-3 text-center">
+              <h1>CI/CD Pipeline</h1><br>
+              <img width="50%" src="jenkins.png" data-holder-rendered="true">
             </div>
-            <div class="col-lg-4"><img src="foolme1.png" class="img-fluid" alt="Responsive image"></div>
-            <div class="col-lg-4"><img src="foolme2.png" class="img-fluid" alt="Responsive image"></div><br>
-          </div>
 
-          <div class="row" style = "padding-bottom: 5%;">
-            <div class="col-lg-4"><img src="foolme2.png" class="img-fluid" alt="Responsive image"></div>
-            <div class="col-lg-4"><img src="foolme2.png" class="img-fluid" alt="Responsive image"></div>
-            <div class="col-lg-4">
-              <h3><br>Loan Calculator App</h3>
-              <h5>I created a simple app that uses Maven, Java, mySQL, Hibernate, Bootstrap and JQuery. The purpose of the app was to perform basic CRUD opperations on an SQL database </h5>
+            <div class="col-lg-3 text-center">
+              <h1>Fool Me once</h1><br>
+              <img width="50%" src="meanstack.png" data-holder-rendered="true">
+            </div>
+
+            <div class="col-lg-3 text-center">
+              <h1>Customer CRUD Example</h1>
+              <img width="50%" src="selenium.png" data-holder-rendered="true">
             </div>
           </div>
 
-          <div class="row" style = "padding-bottom: 5%;">
-            <div class="col-lg-4">
-              <h3><br>This website</h3>
-              <h5>I created this website first as a place to show off my skills but also as a learning project for react</h5>
+          <div class="halfscreen">
+            <div class="col-lg-3 text-center">
+               <h1>Suduku Puzzle solver</h1>
+              <img width="50%" src="java.png" data-holder-rendered="true">
             </div>
-            <div class="col-lg-4"><img src="foolme2.png" class="img-fluid" alt="Responsive image"></div>
-            <div class="col-lg-4"><img src="foolme2.png" class="img-fluid" alt="Responsive image"></div>
+
+            <div class="col-lg-3 text-center">
+               <h1>Pyton Web Crawler</h1>
+              <img width="50%" src="pyton.png" data-holder-rendered="true">
+            </div>
+
+            <div class="col-lg-3 text-center">
+               <h1>Customer CRUD Example</h1>
+              <img width="50%" src="selenium.png" data-holder-rendered="true">
+            </div>
+
+            <div class="col-lg-3 text-center">
+               <h1>Customer CRUD Example</h1>
+              <img width="50%" src="selenium.png" data-holder-rendered="true">
+            </div>
+
           </div>
-
-           <div class="row" style = "padding-bottom: 5%;">
-           <div class="col-lg-4"><img src="foolme2.png" class="img-fluid" alt="Responsive image"></div>
-           <div class="col-lg-4"><img src="foolme2.png" class="img-fluid" alt="Responsive image"></div>
-            <div class="col-lg-4">
-              <h3><br>The development of a CI/CD pipeline</h3>
-              <h5>As part of my time in industry I was aable to develop a CI/CD pipeline. I used tecnologys such as  </h5>
-            </div>
-          </div>
-
-          <div class="row" style = "padding-bottom: 5%;">
-            <div class="col-lg-4">
-              <h3><br>The development of an automated testing framework using Selinium</h3>
-              <h5>During my placement as part of University I developed a automated testing framework for a company. I used Selinum and java to automate a series of smoke tests and automated the process that was previously being carried out by testers. This vastly reduced the time the team took to perform releases, and also meant that testing could be done more regularly being caried out every night instead of before a new build</h5>
-            </div>
-            <div class="col-lg-4"><img src="foolme2.png" class="img-fluid" alt="Responsive image"></div>
-            <div class="col-lg-4"><img src="foolme2.png" class="img-fluid" alt="Responsive image"></div>
-          </div>-->
-
         </div>
       </div>
-    </div>
   </section>
 
   <section id="extra" class = "extra">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 mx-auto">
-          <h2><br>Outside Work</h2>
           <p class="lead"></p>
+
+          <div class="row">
+          <div class="col-lg-3 text-center"><h1>Volunteer Work</h1>
+            <img width="100%" src="volunteer.jpg" data-holder-rendered="true">
+            <h5><br>Volunteer work has always interested me I have volunteered throughout my life in youth groups</h5>
+          </div>
+
+          <div class="col-lg-3 text-center"><h1>Running</h1>
+            <img width="100%" src="sport.jpg" data-holder-rendered="true">
+            <h5><br></h5>
+          </div>
+
+          <div class="col-lg-3 text-center"><h1>Travel</h1>
+            <img width="100%" src="travel.jpg" data-holder-rendered="true">
+            <h5><br></h5>
+          </div>
+
+          <div class="col-lg-3 text-center"><h1>Diving</h1>
+            <img width="100%" src="diving.jpg" data-holder-rendered="true">
+            <h5><br></h5>
+          </div>
+
         </div>
       </div>
     </div>
@@ -200,12 +256,8 @@
   <footer class="py-5 bg-dark">
     <div class="container">
       <p class="m-0 text-center text-white">Copyright &copy; Your Website 2020</p>
-
-      Icons made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
     </div>
 
   </footer>
-
-    <noscript>You need to enable JavaScript to run this app.</noscript>
   </body>
 </html>
