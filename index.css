@@ -8,7 +8,7 @@ html, body {
 }
 
 .profile {
-  background:#353f69;
+  background:#1e3773;
   height:100%;
   width:100%;
   color: white;
@@ -16,21 +16,20 @@ html, body {
 }
 
 .stack {
-  background:#e4e5ed;
-   color: black;
-  
-  padding-top: 6%;
+  background:#e1eff5;
+  color: black;
+  padding-top: 5%;
 }
 
 .projects {
-  background:#353f69;
+  background:#1e3773;
   color: white;
   height:100%;
-  padding-top: 5.5%;
+  padding-top: 6%;
 }
 
 .extra {
-  background:#e4e5ed;
+  background:#e1eff5;
   height:100%;
   padding-top: 6%;
 }
@@ -38,6 +37,10 @@ html, body {
 .halfscreen {
   height:50%;
   color:white;
+}
+
+.hr{
+	color:white;
 }
 
 
